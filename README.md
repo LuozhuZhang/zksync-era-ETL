@@ -97,5 +97,25 @@ pyenv activate myenv
 source ~/.pyenv/versions/myenv/bin/activate
 ```
 
-- 
+### Setup
+In the /setup module, configure the block range, folder size, and RPC URL for data retrieval.
+
+- **Block Range**: Select the specific range of blocks to source your on-chain data.
+- **Files Size and Folder Size**: By default, data is stored in units of 10,000 per file and 100,000 per folder. Adjust these settings based on your storage preferences.
+- **RPC URL**: While the default setting is the zkSync public RPC, considering performance constraints, it's advisable to use a local node. For setup details, please refer to the zkSync official team's guidance.
+
+```
+# Example
+FILE_SIZE = 10000  # 10k
+FOLDER_SIZE = 100000  # 100k
+
+START_BLOCK = 0
+END_BLOCK = 1000000  # block 0 to 999,999
+BATCH_SIZE = 100
+MULTI_BATCH_SIZE = 100
+
+BALANCE_BATCH_SIZE = 10
+
+RPC_URL = 'https://mainnet.era.zksync.io'
+```
 ## Contribution
