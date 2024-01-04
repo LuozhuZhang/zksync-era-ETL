@@ -22,9 +22,9 @@
 
 ## Introduction
 
-As Ethereum continues to evolve, the role of Layer 2 (L2) solutions like rollups becomes increasingly pivotal. These innovations are crucial in reducing transaction costs on Ethereum, but they also present new challenges, such as fragmented liquidity. In this rapidly changing landscape, leading L2 platforms are gaining prominence, and I anticipate that in the near future, a select few will handle the majority of significant transactions.
+As Ethereum continues to evolve, [the role of Layer 2 (L2) solutions like rollups becomes increasingly pivotal](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698). These innovations are crucial in reducing transaction costs on Ethereum, but they also present new challenges, such as fragmented liquidity. In this rapidly changing landscape, leading L2 platforms are gaining prominence, and I anticipate that in the near future, a select few will handle the majority of significant transactions.
 
-In this regard, zkSync stands out as a potential leader. Its continuous optimization positions it alongside other major L2 solutions like Optimism and Arbitrum. Recognizing zkSync's potential to become a 'Super Rollup', I developed zkSync-ETL. This tool is designed for efficient and real-time access to on-chain data, a crucial need for developers and analysts in the Ethereum ecosystem.
+In this regard, zkSync stands out as a potential leader. Its continuous optimization positions it alongside other major L2 solutions like Optimism and Arbitrum. [Recognizing zkSync's potential to become a 'Super Rollup'](https://www.growthepie.xyz/), I developed zkSync-ETL. This tool is designed for efficient and real-time access to on-chain data, a crucial need for developers and analysts in the Ethereum ecosystem.
 
 zkSync-ETL is an ongoing project, and warmly welcome ideas, feedback, and contributions. We ensure it remains a valuable resource for anyone looking to leverage the power of zkSync in their Ethereum-based applications.
 
