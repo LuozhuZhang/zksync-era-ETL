@@ -84,8 +84,15 @@ The zkSync-ETL is structured into two primary components: the `/data` module for
 ## How to use it
 
 - Recommended to use ETL by creating a virtual environment.
+  
   ```
+  # Create venv
   brew install pyenv
+  pyenv virtualenv 3.11.4 myenv
+
+  # Active, two methods both works
+  pyenv activate myenv
+  source ~/.pyenv/versions/myenv/bin/activate
   ```
 
 ## Contribution
