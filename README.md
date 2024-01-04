@@ -50,6 +50,37 @@ The zkSync-ETL is structured into two primary components: the `/data` module for
 
 ### Low-Level
 
+- `/data`
+
+  - `/json_raw_data`: Raw JSON data of blocks & transactions.
+  - `/json_clean_data`: Clean JSON data of all tables.
+  - `/json_to_csv`: Clean CSV data of all tables, prepare for import to PostgreSQL DB.
+
+- `/era`
+
+  - `/rpc`: Get raw JSON data from zkSync RPC.
+
+    - `/fetch`: Call to get raw blocks and transactions data.
+    - `/trace`: Call to get raw trace data.
+
+  - `/json`: Convert raw JSON data to clean JSON/CSV data, and plus applications cleaner.
+
+    - `/structures`: Define the data structure of the base tables.
+    - `/resolver`: A tool that assists in converting the base table from raw data to clean data..
+    - `/cleaner`: Important module to convert all raw JSON data to clean JSON and CSV data. Parsing for more applications will also be encapsulated in this module.
+
+  - `/db`: Module for importing data into a database.
+
+    - `/schemas`: Define the data structure of all tables in the PostgreSQL database.
+    - `/exporter`: Import clean CSV data from all tables into the database.
+
+  - `/setup`: Some basic setup.
+
+    - `/config`: Block ranges, file size, folder size, RPC URL, etc.
+    - `/tokens`: Token addresses for balance data.
+
+  - `/utils`: All the utils crates used as dependencies of the module crates above.
+
 ## How to use it
 
 ## Contribution
