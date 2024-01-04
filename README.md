@@ -34,9 +34,9 @@ zkSync-ETL is an ongoing project, and warmly welcome ideas, feedback, and contri
 
 The zkSync-ETL is structured into two primary components: the `/data` module for data storage, and the `/era` module for specific data processing tasks.
 
-Data Acquisition (`/rpc` Module): This module interfaces with the [zkSync RPC](https://chainlist.org/chain/324), where running a local node is advisable (see [external node documentation](https://github.com/matter-labs/zksync-era/tree/main/docs/guides/external-node) for guidance). It retrieves raw block and transaction data in JSON format.
+**Data Acquisition** (`/rpc` Module): This module interfaces with the [zkSync RPC](https://chainlist.org/chain/324), where running a local node is advisable (see [external node documentation](https://github.com/matter-labs/zksync-era/tree/main/docs/guides/external-node) for guidance). It retrieves raw block and transaction data in JSON format.
 
-Data Processing (`/json` Module): Within the json module, raw data undergoes cleaning and processing. This transforms it into comprehensively clean data, currently comprising seven core tables: **accounts**, **balances**, **blocks**, **contracts**, **SyncSwap swaps**, **token transfers**, and **transactions**. Future updates aim to include data from mainstream DEXs, NFTs, and derivative protocols.
+**Data Processing** (`/json` Module): Within the json module, raw data undergoes cleaning and processing. This transforms it into comprehensively clean data, currently comprising seven core tables: **accounts**, **balances**, **blocks**, **contracts**, **SyncSwap swaps**, **token transfers**, and **transactions**. Future updates aim to include data from mainstream DEXs, NFTs, and derivative protocols.
 
 - accounts
 - balances
@@ -46,7 +46,7 @@ Data Processing (`/json` Module): Within the json module, raw data undergoes cle
 - token transfers
 - transactions
 
-Database Management (`/db` Module): The db module is responsible for creating PostgreSQL tables and data schemas. It imports all data in CSV format into these tables. This setup enables the development of custom data programs akin to Dune, Nansen, and The Graph, utilizing zkSync data. Additionally, these datasets can be instrumental in researching the Ethereum and zkSync ecosystems.
+**Database Management** (`/db` Module): The db module is responsible for creating PostgreSQL tables and data schemas. It imports all data in CSV format into these tables. This setup enables the development of custom data programs akin to Dune, Nansen, and The Graph, utilizing zkSync data. Additionally, these datasets can be instrumental in researching the Ethereum and zkSync ecosystems.
 
 ### Low-Level
 
