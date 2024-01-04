@@ -1,9 +1,8 @@
 # zksync-era-ETL: on-chain data tool
-[![image](https://github.com/LuozhuZhang/zksync-era-ETL/assets/70309026/31e4d8fb-4c43-42c0-870e-3195bb478a14)](https://zksync.io/)
 
 <div align="center">
-  <a href="https://www.artstation.com/artwork/9mEx8a/">
-    <img alt="zkevm" src="https://cdna.artstation.com/p/assets/images/images/029/062/442/4k/t-x-7.jpg?1596346307" >
+  <a href="[https://www.artstation.com/artwork/9mEx8a/](https://zksync.io/)">
+    <img alt="zkevm" src="https://github.com/LuozhuZhang/zksync-era-ETL/assets/70309026/31e4d8fb-4c43-42c0-870e-3195bb478a14" >
   </a>
   <p align="center">
     <a href="https://github.com/sindresorhus/awesome">
