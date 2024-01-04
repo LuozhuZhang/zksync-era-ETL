@@ -1,5 +1,7 @@
 # zksync-era-ETL: on-chain data tool
 
+[![Logo](eraLogo.png)](https://zksync.io/)
+
 ## Introduction
 
 As Ethereum continues to evolve, the role of Layer 2 (L2) solutions like rollups becomes increasingly pivotal. These innovations are crucial in reducing transaction costs on Ethereum, but they also present new challenges, such as fragmented liquidity. In this rapidly changing landscape, leading L2 platforms are gaining prominence, and I anticipate that in the near future, a select few will handle the majority of significant transactions.
@@ -17,6 +19,14 @@ The zkSync-ETL is structured into two primary components: the `/data` module for
 Data Acquisition (`/rpc` Module): This module interfaces with the [zkSync RPC](https://chainlist.org/chain/324), where running a local node is advisable (see [external node documentation](https://github.com/matter-labs/zksync-era/tree/main/docs/guides/external-node) for guidance). It retrieves raw block and transaction data in JSON format.
 
 Data Processing (`/json` Module): Within the json module, raw data undergoes cleaning and processing. This transforms it into comprehensively clean data, currently comprising seven core tables: **accounts**, **balances**, **blocks**, **contracts**, **SyncSwap swaps**, **token transfers**, and **transactions**. Future updates aim to include data from mainstream DEXs, NFTs, and derivative protocols.
+
+- accounts
+- balances
+- blocks
+- contracts
+- SyncSwap swaps
+- token transfers
+- transactions
 
 Database Management (`/db` Module): The db module is responsible for creating PostgreSQL tables and data schemas. It imports all data in CSV format into these tables. This setup enables the development of custom data programs akin to Dune, Nansen, and The Graph, utilizing zkSync data. Additionally, these datasets can be instrumental in researching the Ethereum and zkSync ecosystems.
 
