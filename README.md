@@ -1,6 +1,25 @@
 # zksync-era-ETL: on-chain data tool
+[![image](https://github.com/LuozhuZhang/zksync-era-ETL/assets/70309026/31e4d8fb-4c43-42c0-870e-3195bb478a14)](https://zksync.io/)
 
-[![Logo](eraLogo.png)](https://zksync.io/)
+<div align="center">
+  <a href="https://www.artstation.com/artwork/9mEx8a/">
+    <img alt="zkevm" src="https://cdna.artstation.com/p/assets/images/images/029/062/442/4k/t-x-7.jpg?1596346307" >
+  </a>
+  <p align="center">
+    <a href="https://github.com/sindresorhus/awesome">
+      <img alt="awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+    </a>
+    <a href="https://github.com/LuozhuZhang/zksync-era-ETL/graphs/contributors">
+      <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/LuozhuZhang/zksync-era-ETL">
+    </a>
+    <a href="http://makeapullrequest.com">
+      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+    </a>
+    <a href="https://twitter.com/LuozhuZhang">
+      <img alt="Twitter" src="https://img.shields.io/twitter/url/https/twitter.com/LuozhuZhang.svg?style=social&label=Follow%20%40LuozhuZhang">
+    </a>
+  </p>
+</div>
 
 ## Introduction
 
